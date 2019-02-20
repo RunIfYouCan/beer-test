@@ -1,0 +1,43 @@
+.BeerCard {
+  position: relative;
+  padding-top: 15px;
+  padding-bottom: 40px;
+  width: 30%;
+  margin-bottom: 20px;
+
+  .BeerCard__title {
+    color: orange;
+  }
+
+  .BeerCard__image {
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    background-size: contain;
+  }
+
+  &:hover {
+    box-shadow: 0 2px 30px -1px rgba(0,0,0,0.28);
+    transition: box-shadow 0.1s;
+  }
+
+  @media only screen and (max-width: 768px) {
+    width: 48%;
+  }
+
+  @media only screen and (max-width: 576px) {
+    width: 100%;
+  }
+}
+
+.BeerCard__favorite {
+  position: absolute;
+  right: 0;
+  top: 0;
+
+  .checked {
+    svg {
+      color: orange;
+    }
+  }
+}

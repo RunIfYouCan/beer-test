@@ -1,0 +1,18 @@
+.Navigation {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  padding: 15px 0;
+  background: orange;
+  z-index: 1;
+
+  a {
+    padding: 0 10px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+}

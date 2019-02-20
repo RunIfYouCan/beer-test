@@ -1,0 +1,25 @@
+.Header {
+  .Header__bar {
+    background-color: orange;
+  }
+}
+
+.Header__bar {
+  padding: 30px 0;
+
+  .title {
+    font-size: 42px;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+
+  .subTitle {
+    font-size: 16px;
+    margin-top: 15px;
+  }
+
+  .title,
+  .subTitle {
+    color: white;
+  }
+}
